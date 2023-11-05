@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memberships</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <a class="membership" href="./Memberships.html">Memberships</a>
+            <a href="./users.html">Users</a>
+        </ul>
+    </nav>
+    <main>
+        <div class="title">
+            <h1>Membership Management</h1>
+            <button class="btn"><span>+</span>New Membership</button>
+            <p>Here you can manage your membership packages. Note:
+                Make sure you are not deleting or deactivating packages assigned to active users</p>
+        </div>
+        <section class="Management-list">
+            <div class="Membership-Management" data-id="${membershipId}">
+                <h2>$1.99 Trial</h2>
+                <p>This is 2 days membership</p>
+                <div class="box">
+                    <div class="delete-icon">
+                        <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                    </div>
+                </div>
+            </div>
+            <div class="Membership-Management">
+                <h2>$2.20 Silver</h2>
+                <p>This is 7 basic membership</p>
+                <div class="box">
+                    <div class="delete-icon">
+                        <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                    </div>
+                </div>
+            </div>
+            <div class="Membership-Management">
+                <h2>$2.99 Bronze</h2>
+                <p>This is 30 days membership</p>
+                <div class="box">
+                    <div class="delete-icon">
+                        <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                    </div>
+                </div>
+            </div>
+            <div class="Membership-Management">
+                <h2>$6.99 Gold</h2>
+                <p>This is 90 days basic membership</p>
+                <div class="box">
+                    <div class="delete-icon">
+                        <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                    </div>
+                </div>
+            </div>
+            <div class="Membership-Management">
+                <h2>$149.99 Platinum</h2>
+                <p>Platinum Yearly Subcription</p>
+                <div class="delete-icon">
+                    <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                </div>
+                <div class="box">
+                    <div class="delete-icon">
+                        <i class="fas fa-trash"></i> <!-- Font Awesome "delete" ikona -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>Copyright &copy;2023 Membership Manager</footer>
+</body>
+<script src="app.js"></script>
+
+</html>

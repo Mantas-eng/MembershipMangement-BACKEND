@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Users</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <a href="./Memberships.html">Memberships</a>
+            <a class="membership" href="./users.html">Users</a>
+        </ul>
+    </nav>
+    <main>
+        <div id="successMessage"></div>
+        <div id="errorMessage"></div>
+        <div class="user-grid"></div>
+        <h1>Create User</h1>
+        <div class="create-membership">
+            <form id="userForm">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="membershipPlan">Membership Plan:</label>
+                    <select id="membershipPlan" name="membershipPlan">
+                        <option value="gold">Gold</option>
+                        <option value="silver">Silver</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="platinum">Platinum</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button class="btn cancel">Cancel</button>
+                    <button class="btn create" type="submit">Create User</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>Copyright &copy; 2023 User Manager</footer>
+
+    <script src="users.js"></script>
+</body>
+
+</html>

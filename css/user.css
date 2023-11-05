@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin-left: 50px;
+}
+a.membership{
+    color: #435eae;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.create-membership {
+    position: relative;
+    background-color: rgb(241, 240, 240);
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items:center;
+}
+
+.create-membership h2 {
+    font-size: 24px;
+    text-align: center;
+}   
+
+.form-group {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form{
+    width: 50%;
+}
+.form-group textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.cancel {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn.create {
+    background-color: #435eae;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #383d6e;
+}

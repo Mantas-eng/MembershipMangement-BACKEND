@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin-left: 50px;
+}
+a.membership{
+    color: #435eae;
+}
+
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.user-box{
+    position: relative;
+    background-color: rgb(241, 240, 240);
+    padding: 40px;
+    width: 330px;
+    height: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+   
+}
+.highlighted {
+    background-color: rgb(57, 87, 139); /* Set the background color to yellow for highlighting */
+    font-weight: bold; /* Optionally make the text bold */
+}
+.buttons{
+    text-align: center;
+}
+#sortButton {
+    background-color: #007BFF; /* Spalva mygtuko fone */
+    color: #fff; /* Teksto spalva */
+    padding: 10px 20px; /* Atstumas nuo kraštų */
+    border: none; /* Panaikina mygtuko apvadą */
+    border-radius: 5px; /* Skrituliukų kraštai */
+    cursor: pointer; /* Rodykle pasikeis į rankinį ženklą, kad parodytų, kad tai yra paspaudžiamas elementas */
+}
+
+#sortButton:hover {
+    background-color: #0056b3; /* Spalva, kai užvedama pele */
+}
+
+#sortSymbol {
+    margin-left: 10px; /* Atstumas nuo teksto iki simbolio */
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+footer{
+    text-align: center;
+}
+
+

@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.nav{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin-left: 50px;
+}
+a.membership{
+    color: #435eae;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+.create-membership {
+    position: relative;
+    background-color: rgb(241, 240, 240);
+    width: 100%;
+    padding: 20px;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+    
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    flex: 1;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    flex: 2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 50%;
+    margin: 5px;
+}
+
+.left-label {
+    text-align: center;
+}
+#membershipPlan {
+    width: 67%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#membershipPlan option {
+    font-weight: bold;
+    font-size: 16px;
+}
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.cancel {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn.create {
+    background-color: #435eae;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer{
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+main{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+.nav{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin-left: 50px;
+}
+a.membership{
+    color: #435eae;
+}
+
+.title{
+    position: relative;
+    }
+.btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #435eae;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    .btn:hover{
+        background-color: #262c46;
+    }
+    span{
+        margin: 10px;
+    }
+.delete-icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    color: red;
+}
+.box{
+    background-color: rgb(232, 153, 153);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+}
+.Management-list{
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Membership-Management{
+    position: relative;
+    background-color: rgb(241, 240, 240);
+    padding: 40px;
+    width: 330px;
+    height: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Membership-Management h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Membership-Management p{
+    color: #666;
+    margin: 5px 0;
+}
+
+footer{
+    text-align: center;
+}
